@@ -4,7 +4,13 @@ class CreateTodo extends Component {
   render() {
     return(
       <div>
-        Create Todo Component
+        <form>
+          <p>
+            <label>add todo</label>
+            <input type="text" />
+          </p>
+          <input type="text" />
+        </form>
       </div>
     )
   }
